@@ -1,0 +1,453 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+body {
+	font-family: arial, verdana, sans-serif;
+	color: #444444;
+	
+	background-color: white;
+	font-size: 0.9em;
+}
+
+h2 {
+	font-family: times, serif;
+	border-bottom: solid 1px #444444;
+
+}
+
+h3 {
+	margin-top: 20px;
+	border-bottom: solid 1px #444444;
+}
+
+h4 {
+	margin-top: 10px;
+	margin-left: 5px;
+	border-bottom: 1px solid;
+	margin-bottom: 5px;
+}
+
+img {
+	border:  0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input, textarea {
+	border: solid 1px;
+	margin-top: 10px;
+	padding: 4px;
+}
+
+input[type=button], input[type=submit] {
+	background: #b9dcbb;
+	color: #2b542d;
+	font-weight: bold;
+}
+
+input[value=Ajouter], input[value=    ] {
+	background: #b9dcbb url(images/boutons/ajouter.gif) no-repeat;
+}
+
+input[value=Supprimer], input[value=Effacer], input[value=Annuler] {
+	background: #dcb9b9 url(images/boutons/supprimer.png) no-repeat;
+	color: #542b2b;
+	padding-left: 23px;
+}
+
+input[value=Valider], input[value=Envoyer] {
+	background: #b9dcbb url(images/boutons/valider.png) no-repeat;
+	padding-left: 23px;
+}
+
+input[value=Modifier] {
+	background: #fbd89a url(images/boutons/modifier.png) no-repeat;
+	padding-left: 23px;
+	color: #6e4602;
+}
+
+input[value="Ajouter deees photos"] {
+	background: #f0eded url(images/boutons/ajoutPhotos.png) no-repeat;
+	padding-left: 25px;
+	color: #5b6a7f;
+}
+
+input[value="Cacher"] {
+	background: #8cb7d0 url(images/boutons/cacher.png) no-repeat;
+	padding-left: 25px;
+	color: #0b69a1;
+}
+
+input[value="Afficher"] {
+	background: #8cb7d0 url(images/boutons/afficher.png) no-repeat;
+	padding-left: 25px;
+	color: #0b69a1;
+}
+
+small {
+	color: #777777;
+}
+
+ul li, ol li {
+	list-style-position: outside;
+	margin-left: 15px;
+}
+
+p, ul {
+	margin-bottom: 10px;
+}
+
+#contentLeft ul li {
+	list-style: none;
+	list-style-position: outside;
+}
+
+.iconeDocument {
+	float: left;
+	height: 50px;
+}
+
+.elementAffichage p {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid black;
+	margin-top: -2px;
+}
+
+#header {
+	height: 61px;
+	background: url(images/header.png) repeat-x;
+	padding-top: 18px;
+	color: #ecf0f5;
+	font-size: 0.8em;
+	text-align: left;
+	padding-right: 10px;
+	overflow: hidden;
+	width: 100%;
+	padding-left: 125px;
+	
+	position: fixed;
+	z-index: 1;
+	
+	border-bottom: 3px solid black;
+	padding-bottom: 0px;
+	margin-top: -25px;
+	}
+
+#header p {
+	margin-top: 5px;
+}
+
+#header #titreHeader {
+	background: url(images/titreHeader.png) no-repeat;
+	height: 55px;
+	width: 370px;
+	padding-left: 70px;
+	padding-top: 39px;
+	float: left;
+	text-align: left;
+	
+	font-size: 0.95em;
+	color: #BBBBBB;
+}
+
+
+#contentLeft {
+	float: left;
+	width: 150px;
+	padding-right: 0px;
+	position: relative;
+	bottom: 150px;
+	font-size: 0.8em;
+	color: black;
+	padding-top: 230px;
+	padding-left: 10px;
+	}
+
+#fondContentLeft {
+	padding-left: 20px;
+	float: left;
+	width: 140px;
+	padding-right: 20px;
+	padding-top: 20px;
+	position: fixed;
+	top: 79px;
+	height: 10000px;
+
+	background: #dde4ea;
+	border-right: solid 1px #b4b4b4;
+	overflow: hidden;
+}
+
+#contentLeft h4 {
+	font-family: arial;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #728291;
+	text-shadow: #e9eef2 0px 2px 0px;
+	
+	margin-top: 30px;
+}
+
+#contentLeft h3 {
+	font-family: arial;
+	text-transform: uppercase;
+	color: #314a61;
+	font-size: 1.2em;
+	text-shadow: #e9eef2 0px 2px 0px;
+	border-bottom: solid 1px #314a61;
+}
+
+#contentLeft input.champsTexte {
+	width: 103px;
+	margin-right: 0;
+	border-right: none;
+}
+
+#contentLeft p {
+	margin-bottom: 10px;
+}
+
+#menu3 {
+	text-align: left;
+	height: 77px;
+}
+
+#menu3 table td {
+	max-width: 60px;
+	min-width: 60px;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+}
+
+#menu3 table {
+	border: 1px;
+	display: inline-block;
+	margin: 4px;
+}
+
+#etiquetteModules {
+	position: relative;
+	bottom: 16px;
+	left: 2px;
+}
+
+#selecteur {
+	position: absolute;
+	top: 178px;
+	z-index: 1;
+}
+
+#nomPage {
+	display: none;
+}
+
+
+#contentRight {
+	margin: 25px;
+	margin-left: 205px;
+	position: relative;
+	max-width: 800px;
+	
+	border: 1px solid #b4b4b4;
+	background: #e5eaef;
+	padding: 20px;
+	padding-top: 60px;
+}
+
+#entetePage {
+	font-size: 0.8em;
+}
+
+.cacher {
+	display: none;
+}
+
+.label {
+	padding-right: 10px;
+	padding-top: 10px;
+
+	vertical-align: top;
+	text-align: right;
+	
+}
+
+#infoEdition {
+	font-size: 0.9em;
+	border: 1px solid #4a8051;
+	background: url(images/info.png) no-repeat  2px 5px #b8d0bb;
+	padding: 10px;
+	padding-left: 40px;
+}
+
+#infoEdition a {
+	color: #4a8051;
+}
+
+.infoDroits {
+	border: 1px solid #7e804a;
+	color: #42441a;
+	background: #cfd0b8 url(images/infoJaune.png) no-repeat  2px 5px;
+	padding: 5px;
+	padding-bottom: 0px;
+	padding-left: 23px;
+}
+
+#ecranInitialIcones {
+	z-index: 5;
+}
+
+#ecranInitialIcones table {
+	margin: 20px;
+	margin-right: 0;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+#ecranInitialIcones table td {
+	width: 150px;
+	text-align: center;
+}
+
+.iconeTransparente {
+	opacity: 0.3;
+}
+
+.balisesFormulaire {
+	display: none;
+	position: relative;
+}
+
+#idUtilisateurAModifier, #idPageAModifier {
+	display: none;
+}
+
+#messagePage {
+	font-weight: bold;
+}
+
+#idCategorieBlog, #idBlog {
+	display: none;
+}
+
+
+#entreeBlog {
+	border: solid grey 1px;
+	margin: 10px;
+	padding: 10px;
+	width: 90%;
+}
+
+#bontonsFixes {
+	position: fixed;
+	bottom: 0px;
+	background: #dde4ea;
+	border-top: solid 1px #b4b4b4;
+	width: 100%;
+	margin-left: -45px;
+	padding-left: 30px;
+	padding-bottom: 5px;
+}
+
+.note {
+	border: #bfc64b solid 1px;
+	background: url(images/note.png) no-repeat 2px 2px #eff0ac;
+	padding: 10px;
+	padding-left: 60px;
+}
+
+#affichagePrincipal, #affichageSpecial {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#affichagePrincipal {
+	width: 360px;
+}
+
+#affichageSpecial {
+	max-width: 400px;
+	border-left: 1px solid black;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+#affichageSpecial img {
+	max-width: 400px;
+}
+
+#popup {
+	position: fixed;
+	top: 20px;
+	left: 200px;
+	z-index: 1;
+	background: #ebf0f3;
+	border: solid 10px black;
+	display: none;
+	padding: 20px;
+
+}
+
+.tinymce {
+	height: 250px;
+	width: 250px;
+}
+
+#boutonFermerPopUp {
+	cursor: pointer;
+	text-align: right;
+	margin: 0; padding: 0;
+	font-weight: bold;
+	
+	position: relative;
+	bottom: 18px;
+	left: 15px;
+}
+
+#sculpture {
+	cursor: crosshair;
+}
+
+tr[name=id], tr[name=coordX1], tr[name=coordX2], tr[name=coordY1], tr[name=coordY2], tr[name=URLpetit], tr[name=URLmoyen], tr[name=URLgrand] {
+	display: none;
+}
+
+#fonctionRecherche {
+	font-size: 0.6em;
+	text-align: right;
+	width: auto;
+	float: right;
+}
+
+#fonctionRecherche input {
+	height: 0.6em;
+	font-size: 0.6em;
+	position: relative;
+	top: 4px;
+}
+
+#apercuSymbole {
+	width: 100px;
+}
+
+.iconeModule {
+	width:  53px;
+}
+
+#boutonUp {
+	display: inline;
+}

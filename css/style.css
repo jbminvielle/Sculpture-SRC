@@ -1,0 +1,312 @@
+/*Raz margin et padding*/
+* {
+margin:0;
+padding:0;
+text-decoration:none;
+}
+
+a {
+	color: inherit;
+	border: inherit;
+}
+
+img {
+	border:none;
+	color : none;
+	text-decoration : none;
+}
+
+area {
+	border:none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear{
+	clear:both;
+}
+
+body{ 
+	width : 100%;
+	margin : auto;
+	font-family: verdana;
+	overflow-x:hidden;
+	background:url('../images/fond2.jpg') center center no-repeat fixed #3F3A37; 
+}
+
+#site {
+width : 900px;
+margin :auto;
+}
+
+/* Haut.php	En-tête et Logo*/
+#menu {	
+	position : relative;
+	margin-left : 200px;
+	width:610px; 
+	height:25px; 
+	background:url('../images/barreHaut.png');
+	z-index: 1;
+	list-style:none;
+	padding-top : 5px;
+}
+
+#logo{
+	position:relative;
+	height:85px;
+	z-index:0;
+}
+
+#menu a{
+text-decoration:none;
+color : white;
+}
+
+#menu li {
+	display : inline;
+	margin-left:58px;
+	font-size : 0.9em;
+	color : white;
+}
+
+/*	Contenu des pages	*/
+#corps {
+position:relative;
+width : 670px;
+margin-top: 10px;
+margin-left:140px;
+z-index:2;
+}
+
+/* Page d'accueil */
+#imageStatue{
+	border:solid 10px;
+	border-color: #fcf7e0;
+}
+
+/*	Présentation du projet  */
+.blocTexte{
+margin-top : 20px;
+border : solid 5px;
+border-color :  #fcf7e0;
+background-color : #3F3A37;
+}
+
+.titre{
+	margin-top:15px;
+	color:#ccc7c7;
+	margin-left : 8px;
+}
+
+.texte{
+	color : #3F3A37;
+	margin : 0px 9px 9px 9px;
+	background-color:#ccc7c7;
+}
+
+.blocTexte .texte p{
+padding: 20px 10px 10px 10px;
+}
+
+.blocTexte:first-Child
+{
+margin : 0px 0px 0px 0px;
+}
+
+#avisGeneral th {
+font-size:0.8em;
+width : 180px;
+color :  #3F3A37;
+background-color:#ccc7c7;
+padding-top : 6px;
+padding-right : 8px;
+padding-left : 8px;
+border : solid 10px;
+padding-bottom:3px;
+border-bottom : 0px;
+border-top:0px;
+}
+
+#avisGeneral td{
+width : 180px;
+color :  #3F3A37;
+background-color:#ccc7c7;
+padding-top : 40px;
+padding-right : 10px;
+padding-left : 10px;
+padding-bottom:40px;
+border : solid 10px;
+}
+
+#avisGeneral td p:first-child {
+	text-indent: 80px;
+}
+
+.avis{
+	overflow: hidden;
+}
+
+.avis td{
+	width : 300px;
+	color :  #3F3A37;
+	background-color:#ccc7c7;
+	padding-top : 40px;
+	padding-right : 10px;
+	padding-left : 10px;
+	padding-bottom:40px;
+	border : solid 10px;
+}
+
+.auteur {
+	font-size: 0.9em;
+	text-align: right;
+	font-style: italic;
+}
+
+p.afficherEleves, p.afficherProfs, p.afficherPublic {
+	margin: auto;
+	margin-top: 20px;
+	background: #3F3A37;
+	color: #ccc7c7;
+	width: 130px;
+	padding: 3px;
+	font-size: 0.8em;
+	text-align: center;
+	
+	
+}
+
+.afficherEleves, .afficherProfs, .afficherPublic {
+	cursor: pointer;
+}
+
+#avisExemple {
+	overflow: hidden;
+
+}
+
+.avis td {
+	background:#ccc7c7  url('../images/quotes.png') no-repeat;
+}
+
+.avis td p:first-child {
+	text-indent: 80px;
+}
+
+/* Etapes */
+#ancresEtapes {
+	border:solid 5px;
+	border-color: #fcf7e0;
+	background-color:#ccc7c7;
+}
+#ancresEtapes ol{
+	list-style-type:upper-roman;
+	list-style-position:inside;
+	background-color:#3F3A37;
+	padding : 10px;
+	color :  #ccc7c7;
+}
+
+#ancresEtapes	li{
+	width : 250px;
+	float:top;
+}
+
+#ancresEtapes	li:first-Child{
+	float:none;
+}
+
+#etapes{
+	margin-top: 20px;
+}
+
+#etapes .texte{
+	margin-top: 0px;
+}
+
+#etapes .titre{
+	color : #ccc7c7;
+	margin : 9px 9px 0px 9px;
+	border-bottom : 3px solid #3F3A37;
+}
+
+.date {
+	font-size:0.8em;
+	margin : 0px 9px 0px 9px;
+	color : #ccc7c7;
+}
+
+
+/*	Visualisation	*/
+#animationVisu{
+	border:solid 5px;
+	border-color : #fcf7e0;
+	background-color: #3F3A37;
+}
+
+/* Contact */
+#formulaire {
+	border:solid 5px;
+	border-color : #fcf7e0;
+	background-color: #3F3A37;
+}
+
+#formulaire form input,textarea{
+margin :10px 10px 10px 10px;
+}
+
+/* Plan du site */
+#plan .texte{
+margin : 10px;
+padding : 10px;
+list-style-position: inside;
+}
+
+#plan .texte li{
+margin : 5px;
+padding : 5px;
+}
+
+
+
+/*	Bas.php	Accroche et footer		*/
+#accroche{
+	width : 738px;
+	height : 75px;
+	background: url('../images/Barre.png') no-repeat;
+	right : 5px;
+	position: relative;
+	bottom: 23px;
+	padding-top: 55px;
+}
+
+#accroche p{
+	margin-left : 15px;
+	font-size : 1.3em;
+}
+
+#footer{
+	bottom:47px;
+	position:relative;
+	z-index:9;
+	background: url('../images/barreHaut.png');
+	color: white;
+}
+
+#footer a{
+	color: white;
+	text-decoration: none;
+}
+
+#footer ol{
+margin : auto;
+	width : 550px;
+	color : white;
+}
+#footer li{
+	display : inline;
+	margin-left:25px;
+	font-size : 0.9em;
+}

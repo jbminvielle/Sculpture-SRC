@@ -1,0 +1,7 @@
+login : 'jihel
+Mot de passe : 'Z5gj0IE9mlyDV'
+Nom de la base de données : sculptureSrc
+login BDD : (en fonction de votre phpMyAdmin, 'root' par defaut)
+Mot de passe BDD : (en fonction de votre phpMyAdmin, 'root' ou '' par defaut)
+
+Nous l'avons installé par ftp sur un hébergeur gratuit. Pour l'installer en local, utiliser un environnement LAMP(Wamp, EasyPhp)
